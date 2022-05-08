@@ -1,0 +1,104 @@
+.cdm__container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+.cdm__image{
+    
+}
+.cdm__image img{
+    height: 570px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+.cdm__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cdm__inner__right{
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.cdm__inner__left{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.cdm__inner__right__inner{
+    margin-left: 30px;
+}
+.cdm__inner__right__inner__top{
+    display: flex;
+    align-items: center;
+}
+.cdm__inner__right__inner__top__right{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.cdm__inner__right__inner__top__right__image img{
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    max-height: 34px;
+}
+.cdm__inner__right__inner__top__right p{
+    color: #231f40;
+    font-size: 16px;
+    line-height: 26px;
+    transition: .4s;
+    margin-right: 10px;
+}
+.cdm__inner__right__inner__top__left{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cdm__inner__right__inner__top__left__rating{
+    margin-left: 10px;
+}
+.cdm__inner__right__inner__top__left__rating svg{
+    color: #ffa41b;
+}
+.cdm__inner__right__inner__title{
+    font-size: 35px;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    font-family: 'Vazirmatn', sans-serif;
+}
+.cdm__card{
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 30px;
+}
+.cdm__card h5{
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.cdm__card p{
+    color: #6f6b80;
+    color: var(--color-body);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.63;
+    margin: 0 0 30px;
+}
+.cdm__card ul{
+    list-style: inside !important;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+.cdm__card ul li{
+    color: #6f6b80;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.63;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cdm__videocard{
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 30px;
+}
